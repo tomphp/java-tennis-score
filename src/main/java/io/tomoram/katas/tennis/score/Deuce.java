@@ -14,11 +14,6 @@ public final class Deuce implements Score {
     }
 
     @Override
-    public Player winner() throws IncompleteGame {
-        throw new IncompleteGame();
-    }
-
-    @Override
     public String toString() {
         return "Deuce{}";
     }
